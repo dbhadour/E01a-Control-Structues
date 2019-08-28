@@ -8,7 +8,7 @@ utils.clear()                       # clear the screen
 
 print('Greetings!')
 colors = ['red','orange','yellow','green','blue','violet','purple']  # this is an array of strings.
-play_again = ''
+play_again = ''  #A declaration of a constant variable as by default we don't know if the player wants to play again or not
 best_count = sys.maxsize            # the biggest number
 while (play_again != 'n' and play_again != 'no'): #a while loop wit two conditions
     match_color = random.choice(colors) #picks a random color in the array
