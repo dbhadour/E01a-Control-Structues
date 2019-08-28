@@ -14,4 +14,4 @@ if (color == 'red'):
 elif (color == 'pink'):
     print('Close!')
 else:
-    print('Sorry, try again.')
+    print('Sorry, try again.')   

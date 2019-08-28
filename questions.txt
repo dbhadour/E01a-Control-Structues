@@ -1,68 +1,69 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+Open main1.py. Before running it, what do you expect this program to do? It's going to print 'Greetings!' and "What is my favorite color? " and will allow us to give input the given question.
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. A pop-up tab came on the bottom side of the screen where the two sentences were in th output and I had to give a input.
 
 What do you think the program did with what you typed?
+It returned a hollow rectangle.
 
 
 
-Open main2.py. Before running it, describe how this is different than main1.py. 
+Open main2.py. Before running it, describe how this is different than main1.py. it is same but it has a variable named "color" involved.
 
-What do you think the color = input() will do? 
+What do you think the color = input() will do? A variable is assigned to whatever this function returns.
 
-Run the program in the terminal and answer the question. Did the program do what you expected?
-
-
-
-Open main3.py. Before running it, describe how this is different than main2.py. 
-
-What is happening on lines 11–14? 
-
-Why are lines 12 and 14 indented? 
-
-Run the program and answer the question. What happens if you don’t capitalize Red? 
-
-What does this tell you about "color"?
+Run the program in the terminal and answer the question. Did the program do what you expected? yes it returned what I typed in the output.
 
 
 
-Open main4.py. Before running it, describe how this is different than main2.py. 
+Open main3.py. Before running it, describe how this is different than main2.py. It has a conditional loop - if-else and here our input will be tested against the if and if the condition is true then the output in that if will be executedl.
 
-What problem is this trying to solve? 
+What is happening on lines 11–14? there is if-else conditional loop
+
+Why are lines 12 and 14 indented? because they are inside the if-else conditonal loop.
+
+Run the program and answer the question. What happens if you don’t capitalize Red? it returns 'Sorry, try again.'.
+
+What does this tell you about "color"? that color is a different name assigned to what we actually enter when the program runs.
+
+
+
+Open main4.py. Before running it, describe how this is different than main2.py. it has if-else and main2.py doesn't but this also lets me enter "red" only to give "Correct" in the output which is a different result from main3.py.
+
+What problem is this trying to solve? it's trying not to be case-sensitive.
 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+it returns "Correct" in both cases of "red and "Red"
 
 
+Open main5.py. What do you expect line 11 to do? I expect color.lower to convert every character in the input to lower case and then test it against the condition give in the if statement
 
-Open main5.py. What do you expect line 11 to do? 
+What problem is it trying to solve?  its trying to get rid of all uppercase characters that the user might possibly type.
 
-What problem is it trying to solve? 
-
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)? It returns 'Sorry, try again"
 
 
 
 Open main6.py. How is line 11 different than main5.py? 
 
-What would you guess .strip() is doing? 
+What would you guess .strip() is doing? My guess -> it would allow spaces to be neglected when testing the input in the given condition inside if statement
 
-Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Run the program and answer the question. Is there another way of writing “red” that will break this logic? no , as long as there is no space inside red , the logic won't be broken
 
 
 
-Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+Open main7.py. Before running this program, how do you expect this to be different than main6.py? it has one more condition in the if-else-if (that's how it is in C but i think here elif is else if) conditional loop.
 
-What is the purpose of line 11? 
+What is the purpose of line 11? to apply .lower and .strip only once using a variable so that the progammer doesnlt have to do it repeatedly in the if-else-if loop.
 
 Run the program and answer the question.
 
+it is doing what i said above. the new case of pink works the same as red except it gives a different output "Close"
 
+Open main8.py. What is the purpose of line 11? it is a while loop. this makes it a posible to make loop run endlessly if we assign the same value in the input thats already assigned to color in while statement. I could say this allows a answer that the program won't accept and will keep askinig until we enter a valid answer.
 
-Open main8.py. What is the purpose of line 11? 
+Why are lines 12–19 indented? because there are inside while loop. its a writing convetion to make porgrams easy to read and debug.
 
-Why are lines 12–19 indented? 
-
-Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? color would become our input instead of ' ' and if we don't enter red the program will be in a infinite loop
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
@@ -70,9 +71,9 @@ Make that change and run the program again. To end any Python program, you can t
 
 Open main9.py. What is happening on line 12? 
 
-What is the purpose of “count”? 
+What is the purpose of “count”? it keeps track of number of times while loop gets executed ( how many guesses were made).
 
-What is happening on line 22? 
+What is happening on line 22? its telling how many times we tried guessing the favorite color
 
 Run the program.
 
@@ -81,4 +82,4 @@ Run the program.
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? yes
